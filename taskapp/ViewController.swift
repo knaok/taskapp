@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import RealmSwift
 
 class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSource {
     @IBOutlet weak var tableView: UITableView!
@@ -35,8 +36,13 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
         return .delete
     }
     
-    //method called when touched delete button
+    //method called when delete button is touched
     func tableView(_ tableView: UITableView, commit editStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath){
         
+    }
+    
+    //method excecuted when each cell is touched
+    func tableView(_tableView: UITableView, didSelectRowAt indexPath: IndexPath){
+        performSegue(withIdentifier: "cellSegue", sender: nil) //
     }
 }
