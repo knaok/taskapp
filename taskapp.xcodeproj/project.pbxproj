@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,8 @@
 		AC3828BC26A667E00036E5D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3828BA26A667E00036E5D2 /* Main.storyboard */; };
 		AC3828BE26A667E10036E5D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC3828BD26A667E10036E5D2 /* Assets.xcassets */; };
 		AC3828C126A667E10036E5D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3828BF26A667E10036E5D2 /* LaunchScreen.storyboard */; };
+		AC3A2A4D26B5374A00C4B55C /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3A2A4C26B5374A00C4B55C /* Task.swift */; };
+		AC9F58C426BA208B00F095A4 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9F58C326BA208B00F095A4 /* CategoryViewController.swift */; };
 		ACAF9A5C26A839940039CC3C /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAF9A5B26A839940039CC3C /* InputViewController.swift */; };
 		C7E98F9F478760300278AC36 /* Pods_taskapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4C0A300DFAFA61D23B6062D /* Pods_taskapp.framework */; };
 /* End PBXBuildFile section */
@@ -27,6 +29,8 @@
 		AC3828BD26A667E10036E5D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC3828C026A667E10036E5D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC3828C226A667E10036E5D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC3A2A4C26B5374A00C4B55C /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		AC9F58C326BA208B00F095A4 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		ACAF9A5B26A839940039CC3C /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
 		B4C0A300DFAFA61D23B6062D /* Pods_taskapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_taskapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE07155DDF887C16CBB98C8F /* Pods-taskapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taskapp.release.xcconfig"; path = "Target Support Files/Pods-taskapp/Pods-taskapp.release.xcconfig"; sourceTree = "<group>"; };
@@ -50,7 +54,6 @@
 				2A8825AE039CF175C0795BDD /* Pods-taskapp.debug.xcconfig */,
 				EE07155DDF887C16CBB98C8F /* Pods-taskapp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -78,11 +81,13 @@
 				AC3828B426A667E00036E5D2 /* AppDelegate.swift */,
 				AC3828B626A667E00036E5D2 /* SceneDelegate.swift */,
 				AC3828B826A667E00036E5D2 /* ViewController.swift */,
+				AC9F58C326BA208B00F095A4 /* CategoryViewController.swift */,
 				ACAF9A5B26A839940039CC3C /* InputViewController.swift */,
 				AC3828BA26A667E00036E5D2 /* Main.storyboard */,
 				AC3828BD26A667E10036E5D2 /* Assets.xcassets */,
 				AC3828BF26A667E10036E5D2 /* LaunchScreen.storyboard */,
 				AC3828C226A667E10036E5D2 /* Info.plist */,
+				AC3A2A4C26B5374A00C4B55C /* Task.swift */,
 			);
 			path = taskapp;
 			sourceTree = "<group>";
@@ -211,7 +216,9 @@
 			files = (
 				AC3828B926A667E00036E5D2 /* ViewController.swift in Sources */,
 				AC3828B526A667E00036E5D2 /* AppDelegate.swift in Sources */,
+				AC3A2A4D26B5374A00C4B55C /* Task.swift in Sources */,
 				AC3828B726A667E00036E5D2 /* SceneDelegate.swift in Sources */,
+				AC9F58C426BA208B00F095A4 /* CategoryViewController.swift in Sources */,
 				ACAF9A5C26A839940039CC3C /* InputViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
